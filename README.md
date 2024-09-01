@@ -24,7 +24,7 @@ This is a simple HTML website that displays a centered logo. It is built using H
 
 To get started with this project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/simple-website.git`
+1. Clone the repository: `git clone https://github.com/your-username/personawebsite.git`
 2. Open the `index.html` file in a web browser to view the website
 3. Edit the `index.html` and `style.css` files to make changes to the website
 
