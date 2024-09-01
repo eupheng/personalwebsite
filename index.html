@@ -7,23 +7,58 @@
   <style>
     body {
       margin: 0;
-      padding: 0;
+      padding: 20px;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 100vh;
+      min-height: 100vh;
       background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+      text-align: center;
     }
     
     .logo {
-      width: 200px;
-      height: 200px;
-      margin: 20px;
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+
+      .logo {
+        max-width: 150px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 0.9rem;
+      }
     }
   </style>
 </head>
 <body>
   <img class="logo" src="logo.png" alt="Logo">
   <h1>Hi, I'm Eupheng.</h1>
+  <p>I'm a solopreneur, a maker, and a tinkerer.</p>
+  <p>Founder of <a href="https://www.ahmonglabs.com">AHmongLabs</a></p>
 </body>
 </html>
