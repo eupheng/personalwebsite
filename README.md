@@ -42,4 +42,4 @@ This website is deployed on GitHub Pages. To deploy your own version, follow the
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more information.
+This project is licensed under the BSD License. See the LICENSE file for more information.
